@@ -4,10 +4,8 @@ Concrete Compressive Strength
 
 Data Type: multivariate
  
-Abstract: Concrete is the most important material in civil engineering. The 
-concrete compressive strength is a highly nonlinear function of age and 
-ingredients. These ingredients include cement, blast furnace slag, fly ash, 
-water, superplasticizer, coarse aggregate, and fine aggregate.
+Abstract: Concrete is a fundamental construction material in civil engineering due to its extensive use in structural systems. Its compressive strength is a key mechanical property governed by a nonlinear relationship between curing age and mixture composition. The primary constituents include cement, blast furnace slag, fly ash, water, superplasticizer, fine aggregate, and coarse aggregate. The interaction among these variables directly influences the development of concrete compressive strength and its overall mechanical performance.
+
 
 ---------------------------------
 
