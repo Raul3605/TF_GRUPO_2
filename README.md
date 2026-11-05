@@ -1,6 +1,6 @@
 # Predicción de la resistencia a compresión del concreto con Machine Learning
 
-Aplicación de modelos de ML a un problema de ingeniería estructural.
+Aplicación de modelos de ML a un problema de ingeniería estructural .
 
 ## Problema
 
@@ -39,9 +39,9 @@ Se aplica el marco PCS: predictibilidad, computabilidad y estabilidad. La valida
 
 ## Entregas
 
-- T1: definición del problema, datos y repositorio
-- T2: análisis exploratorio y plan de algoritmos
-- T3: implementación, resultados y presentación final
+- T1: definición del problema, datos y repositorio.
+- T2: análisis exploratorio y plan de algoritmos.
+- T3: implementación, resultados y presentación final.
 
 ## Bitácora de uso de IA
 
