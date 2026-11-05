@@ -19,6 +19,10 @@ Se aplica el marco PCS: predictibilidad, computabilidad y estabilidad. La valida
 ## Integrantes
 
 - Sergio Cornejo Espinoza
+- Gerson Sanabria
+- Raul Ayvar
+- Cristhofer Apaza
+
 
 ## Estructura del repositorio
 
