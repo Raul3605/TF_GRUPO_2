@@ -1,12 +1,12 @@
 # Predicción de la resistencia a compresión del concreto con Machine Learning
 
-Aplicación de modelos de ML a un problema de ingeniería estructural.
+Aplicación de modelos de ML a un problema de ingeniería estructural .
 
 ## Problema
 
 La resistencia a compresión (f'c) del concreto se determina a los 28 días mediante ensayos de probetas. Un modelo que la prediga a partir de la dosificación permite optimizar mezclas y reducir ensayos.
 
-**Pregunta de investigación:** ¿Con qué precisión se puede predecir la resistencia a compresión del concreto a partir de su dosificación y edad, y qué variables influyen más?
+**Pregunta de investigación:** ¿Con qué precisión se puede predecir la resistencia a compresión del concreto a partir de su dosificación, edad, y qué variables influyen más?
 
 ## Dataset
 
@@ -19,6 +19,10 @@ Se aplica el marco PCS: predictibilidad, computabilidad y estabilidad. La valida
 ## Integrantes
 
 - Sergio Cornejo Espinoza
+- Gerson Sanabria
+- Raul Ayvar
+- Cristhofer Apaza
+
 
 ## Estructura del repositorio
 
@@ -35,9 +39,9 @@ Se aplica el marco PCS: predictibilidad, computabilidad y estabilidad. La valida
 
 ## Entregas
 
-- T1: definición del problema, datos y repositorio
-- T2: análisis exploratorio y plan de algoritmos
-- T3: implementación, resultados y presentación final
+- T1: definición del problema, datos y repositorio.
+- T2: análisis exploratorio y plan de algoritmos.
+- T3: implementación, resultados y presentación final.
 
 ## Bitácora de uso de IA
 
