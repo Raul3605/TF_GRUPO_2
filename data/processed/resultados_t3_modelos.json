@@ -1,0 +1,380 @@
+{
+  "split": {
+    "dev_filas": 810,
+    "dev_mezclas": 342,
+    "test_filas": 195,
+    "test_mezclas": 86
+  },
+  "modelos_finales": {
+    "Regresión lineal": {
+      "R2_cv": 0.797,
+      "R2_test": 0.839,
+      "RMSE_test": 6.48,
+      "MAE_test": 5.29
+    },
+    "Random Forest": {
+      "R2_cv": 0.871,
+      "R2_test": 0.905,
+      "RMSE_test": 4.99,
+      "MAE_test": 3.6,
+      "mejores_parametros": {
+        "max_depth": 10,
+        "max_features": 0.40424,
+        "min_samples_leaf": 1,
+        "n_estimators": 198
+      }
+    },
+    "Gradient Boosting": {
+      "R2_cv": 0.881,
+      "R2_test": 0.922,
+      "RMSE_test": 4.5,
+      "MAE_test": 3.26,
+      "mejores_parametros": {
+        "learning_rate": 0.03167,
+        "max_depth": 4,
+        "min_samples_leaf": 4,
+        "n_estimators": 519,
+        "subsample": 0.78671
+      }
+    },
+    "MLP": {
+      "R2_cv": 0.86,
+      "R2_test": 0.892,
+      "RMSE_test": 5.31,
+      "MAE_test": 4.1,
+      "mejores_parametros": {
+        "mlpregressor__alpha": 0.08569,
+        "mlpregressor__hidden_layer_sizes": [
+          32
+        ],
+        "mlpregressor__learning_rate_init": 0.00057
+      }
+    }
+  },
+  "error_por_edad": [
+    {
+      "modelo": "Regresión lineal",
+      "rango": "1-7 d",
+      "n": 212,
+      "RMSE": 6.33,
+      "MAE": 4.86,
+      "error_rel_%": 32.2
+    },
+    {
+      "modelo": "Regresión lineal",
+      "rango": "14-28 d",
+      "n": 383,
+      "RMSE": 7.41,
+      "MAE": 5.53,
+      "error_rel_%": 17.8
+    },
+    {
+      "modelo": "Regresión lineal",
+      "rango": "56-100 d",
+      "n": 164,
+      "RMSE": 7.41,
+      "MAE": 6.0,
+      "error_rel_%": 12.6
+    },
+    {
+      "modelo": "Regresión lineal",
+      "rango": ">100 d",
+      "n": 51,
+      "RMSE": 9.59,
+      "MAE": 8.43,
+      "error_rel_%": 19.3
+    },
+    {
+      "modelo": "Random Forest",
+      "rango": "1-7 d",
+      "n": 212,
+      "RMSE": 4.84,
+      "MAE": 3.44,
+      "error_rel_%": 21.2
+    },
+    {
+      "modelo": "Random Forest",
+      "rango": "14-28 d",
+      "n": 383,
+      "RMSE": 6.2,
+      "MAE": 4.25,
+      "error_rel_%": 12.5
+    },
+    {
+      "modelo": "Random Forest",
+      "rango": "56-100 d",
+      "n": 164,
+      "RMSE": 6.62,
+      "MAE": 5.08,
+      "error_rel_%": 10.5
+    },
+    {
+      "modelo": "Random Forest",
+      "rango": ">100 d",
+      "n": 51,
+      "RMSE": 4.62,
+      "MAE": 3.77,
+      "error_rel_%": 8.3
+    },
+    {
+      "modelo": "Gradient Boosting",
+      "rango": "1-7 d",
+      "n": 212,
+      "RMSE": 4.88,
+      "MAE": 3.44,
+      "error_rel_%": 20.1
+    },
+    {
+      "modelo": "Gradient Boosting",
+      "rango": "14-28 d",
+      "n": 383,
+      "RMSE": 5.93,
+      "MAE": 3.92,
+      "error_rel_%": 11.2
+    },
+    {
+      "modelo": "Gradient Boosting",
+      "rango": "56-100 d",
+      "n": 164,
+      "RMSE": 6.29,
+      "MAE": 4.71,
+      "error_rel_%": 10.0
+    },
+    {
+      "modelo": "Gradient Boosting",
+      "rango": ">100 d",
+      "n": 51,
+      "RMSE": 4.14,
+      "MAE": 3.22,
+      "error_rel_%": 7.2
+    },
+    {
+      "modelo": "MLP",
+      "rango": "1-7 d",
+      "n": 212,
+      "RMSE": 5.07,
+      "MAE": 3.75,
+      "error_rel_%": 23.2
+    },
+    {
+      "modelo": "MLP",
+      "rango": "14-28 d",
+      "n": 383,
+      "RMSE": 6.43,
+      "MAE": 4.69,
+      "error_rel_%": 13.9
+    },
+    {
+      "modelo": "MLP",
+      "rango": "56-100 d",
+      "n": 164,
+      "RMSE": 6.73,
+      "MAE": 5.06,
+      "error_rel_%": 10.8
+    },
+    {
+      "modelo": "MLP",
+      "rango": ">100 d",
+      "n": 51,
+      "RMSE": 5.59,
+      "MAE": 4.42,
+      "error_rel_%": 10.2
+    }
+  ],
+  "aditivos": [
+    {
+      "modelo": "Regresión lineal",
+      "subconjunto": "Sin aditivos",
+      "n": 188,
+      "R2": 0.831,
+      "RMSE": 6.09
+    },
+    {
+      "modelo": "Regresión lineal",
+      "subconjunto": "Con escoria o ceniza",
+      "n": 609,
+      "R2": 0.79,
+      "RMSE": 7.45
+    },
+    {
+      "modelo": "Regresión lineal",
+      "subconjunto": "Con superplastificante",
+      "n": 479,
+      "R2": 0.782,
+      "RMSE": 7.54
+    },
+    {
+      "modelo": "Regresión lineal",
+      "subconjunto": "Con escoria/ceniza y superplast.",
+      "n": 466,
+      "R2": 0.791,
+      "RMSE": 7.3
+    },
+    {
+      "modelo": "Random Forest",
+      "subconjunto": "Sin aditivos",
+      "n": 188,
+      "R2": 0.91,
+      "RMSE": 4.45
+    },
+    {
+      "modelo": "Random Forest",
+      "subconjunto": "Con escoria o ceniza",
+      "n": 609,
+      "R2": 0.861,
+      "RMSE": 6.07
+    },
+    {
+      "modelo": "Random Forest",
+      "subconjunto": "Con superplastificante",
+      "n": 479,
+      "R2": 0.833,
+      "RMSE": 6.6
+    },
+    {
+      "modelo": "Random Forest",
+      "subconjunto": "Con escoria/ceniza y superplast.",
+      "n": 466,
+      "R2": 0.84,
+      "RMSE": 6.39
+    },
+    {
+      "modelo": "Gradient Boosting",
+      "subconjunto": "Sin aditivos",
+      "n": 188,
+      "R2": 0.906,
+      "RMSE": 4.55
+    },
+    {
+      "modelo": "Gradient Boosting",
+      "subconjunto": "Con escoria o ceniza",
+      "n": 609,
+      "R2": 0.876,
+      "RMSE": 5.73
+    },
+    {
+      "modelo": "Gradient Boosting",
+      "subconjunto": "Con superplastificante",
+      "n": 479,
+      "R2": 0.849,
+      "RMSE": 6.28
+    },
+    {
+      "modelo": "Gradient Boosting",
+      "subconjunto": "Con escoria/ceniza y superplast.",
+      "n": 466,
+      "R2": 0.858,
+      "RMSE": 6.01
+    },
+    {
+      "modelo": "MLP",
+      "subconjunto": "Sin aditivos",
+      "n": 188,
+      "R2": 0.914,
+      "RMSE": 4.34
+    },
+    {
+      "modelo": "MLP",
+      "subconjunto": "Con escoria o ceniza",
+      "n": 609,
+      "R2": 0.843,
+      "RMSE": 6.44
+    },
+    {
+      "modelo": "MLP",
+      "subconjunto": "Con superplastificante",
+      "n": 479,
+      "R2": 0.82,
+      "RMSE": 6.85
+    },
+    {
+      "modelo": "MLP",
+      "subconjunto": "Con escoria/ceniza y superplast.",
+      "n": 466,
+      "R2": 0.824,
+      "RMSE": 6.71
+    }
+  ],
+  "bootstrap_mezclas": {
+    "Random Forest": {
+      "media": 0.881,
+      "de": 0.011,
+      "min": 0.861,
+      "max": 0.903
+    },
+    "Gradient Boosting": {
+      "media": 0.892,
+      "de": 0.013,
+      "min": 0.861,
+      "max": 0.914
+    },
+    "MLP": {
+      "media": 0.882,
+      "de": 0.016,
+      "min": 0.847,
+      "max": 0.909
+    }
+  },
+  "ruido_entradas": {
+    "0 %": {
+      "Regresión lineal": 0.839,
+      "Random Forest": 0.905,
+      "Gradient Boosting": 0.922,
+      "MLP": 0.892
+    },
+    "2 %": {
+      "Regresión lineal": 0.824,
+      "Random Forest": 0.897,
+      "Gradient Boosting": 0.914,
+      "MLP": 0.884
+    },
+    "5 %": {
+      "Regresión lineal": 0.785,
+      "Random Forest": 0.875,
+      "Gradient Boosting": 0.893,
+      "MLP": 0.857
+    },
+    "10 %": {
+      "Regresión lineal": 0.727,
+      "Random Forest": 0.837,
+      "Gradient Boosting": 0.855,
+      "MLP": 0.803
+    }
+  },
+  "intervalos_90": {
+    "cobertura": 0.785,
+    "ancho_medio_MPa": 14.2
+  },
+  "intervalos_conformal": {
+    "constante": {
+      "cobertura": 0.928,
+      "ancho_MPa": 16.8
+    },
+    "relativo": {
+      "cobertura": 0.954,
+      "ancho_medio_MPa": 19.0
+    },
+    "cobertura_por_edad": {
+      "1-7 d": {
+        "n": 41,
+        "constante": 0.951,
+        "relativo": 0.854
+      },
+      "14-28 d": {
+        "n": 98,
+        "constante": 0.908,
+        "relativo": 0.969
+      },
+      "56-100 d": {
+        "n": 45,
+        "constante": 0.933,
+        "relativo": 1.0
+      },
+      ">100 d": {
+        "n": 11,
+        "constante": 1.0,
+        "relativo": 1.0
+      }
+    }
+  }
+}

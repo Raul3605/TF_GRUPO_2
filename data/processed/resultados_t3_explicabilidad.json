@@ -1,0 +1,160 @@
+{
+  "importancia_grupos": {
+    "Gradient Boosting": {
+      "Adiciones (escoria, ceniza)": 0.036,
+      "Agregados (grueso, fino)": 0.011,
+      "Edad": 0.772,
+      "Relación agua-cementante": 0.964,
+      "Superplastificante": 0.007
+    },
+    "MLP": {
+      "Adiciones (escoria, ceniza)": 0.245,
+      "Agregados (grueso, fino)": 0.109,
+      "Edad": 0.797,
+      "Relación agua-cementante": 1.27,
+      "Superplastificante": 0.026
+    },
+    "Random Forest": {
+      "Adiciones (escoria, ceniza)": 0.038,
+      "Agregados (grueso, fino)": 0.012,
+      "Edad": 0.81,
+      "Relación agua-cementante": 0.963,
+      "Superplastificante": 0.009
+    },
+    "promedio": {
+      "Adiciones (escoria, ceniza)": 0.106,
+      "Agregados (grueso, fino)": 0.044,
+      "Edad": 0.793,
+      "Relación agua-cementante": 1.066,
+      "Superplastificante": 0.014
+    }
+  },
+  "importancia_individual": {
+    "Gradient Boosting": {
+      "a_aglom": 0.429,
+      "a_c": 0.102,
+      "agua": 0.019,
+      "cemento": 0.013,
+      "edad": 0.2
+    },
+    "MLP": {
+      "a_aglom": 0.356,
+      "a_c": 0.778,
+      "agua": 0.134,
+      "cemento": 0.023,
+      "edad": 0.256
+    },
+    "Random Forest": {
+      "a_aglom": 0.529,
+      "a_c": 0.075,
+      "agua": 0.004,
+      "cemento": 0.019,
+      "edad": 0.21
+    }
+  },
+  "estabilidad_rangos_spearman": {
+    "Gradient Boosting vs MLP": 1.0,
+    "Gradient Boosting vs Random Forest": 1.0,
+    "MLP vs Random Forest": 1.0
+  },
+  "pca_gradient_boosting": {
+    "3": [
+      0.3643185149964487,
+      0.023100183258325555
+    ],
+    "5": [
+      0.47663097648150987,
+      0.040694938342029995
+    ],
+    "8": [
+      0.7351457435899802,
+      0.022356087411457802
+    ]
+  },
+  "lineal_13_variables": [
+    0.8058259493015744,
+    0.026532010978894155
+  ],
+  "pca_lineal": {
+    "2": [
+      -0.021775756406897263,
+      0.0197036233604466
+    ],
+    "3": [
+      0.305681329802888,
+      0.03502400675280212
+    ],
+    "4": [
+      0.30936709816824975,
+      0.030276619137139752
+    ],
+    "5": [
+      0.3896295177784831,
+      0.035781543030459786
+    ],
+    "6": [
+      0.5153527633139563,
+      0.054965880629001346
+    ],
+    "8": [
+      0.5740836427945545,
+      0.0498526763127949
+    ]
+  },
+  "pca_varianza_explicada": [
+    0.289,
+    0.1786,
+    0.1591,
+    0.1273,
+    0.1205,
+    0.0988,
+    0.0229,
+    0.0038
+  ],
+  "autoencoder": {
+    "3": {
+      "lineal": [
+        0.15877780481474682,
+        0.06729131711638031
+      ],
+      "gradient_boosting": [
+        0.3361516968143934,
+        0.034660613069942024
+      ]
+    },
+    "4": {
+      "lineal": [
+        0.3539048938004624,
+        0.08750478949676674
+      ],
+      "gradient_boosting": [
+        0.40668088557790066,
+        0.1323853548766706
+      ]
+    },
+    "6": {
+      "lineal": [
+        0.4024201668992693,
+        0.08700215477220528
+      ],
+      "gradient_boosting": [
+        0.5829024071321035,
+        0.0427562327316013
+      ]
+    }
+  },
+  "pls": {
+    "3": [
+      0.7708191172206857,
+      0.03262609873807798
+    ],
+    "5": [
+      0.8023621633354333,
+      0.02613591612805581
+    ]
+  },
+  "mlp_64_32": [
+    0.8366077690304596,
+    0.05059709440681765
+  ]
+}
