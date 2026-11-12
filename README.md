@@ -21,7 +21,7 @@ Se aplica el marco PCS: predictibilidad, computabilidad y estabilidad. La valida
 - Sergio Cornejo Espinoza
 - Gerson Sanabria
 - Raul Ayvar
-- Cristhofer Apaza
+- Cristhofer Diego Apaza Quispe
 
 
 ## Estructura del repositorio
@@ -52,3 +52,4 @@ Se usó el asistente de IA Claude (Anthropic) como apoyo. Cada fila debe revisar
 | Elección del tema | Ideas de temas con datos reales | Se eligió el dataset del concreto |
 | T1 | Estructura del repositorio, informe y diapositivas | Revisado por el estudiante |
 | T2 | Script de EDA, variables derivadas, validación agrupada e informe | Código ejecutado sobre el dataset del repo |
+| T3 | Análisis y resultados.
